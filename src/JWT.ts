@@ -1,12 +1,7 @@
-import {
-  Algorithm,
-  JwtHeader,
-  sign as JWTSign,
-  verify as JWTVerify,
-} from "jsonwebtoken";
+import { sign as JWTSign, verify as JWTVerify } from "jsonwebtoken";
 
 export interface SignOptions {
-  algorithm?: Algorithm;
+  algorithm?: string;
   keyid?: string;
   expiresIn?: string | number;
   notBefore?: string | number;
@@ -16,7 +11,7 @@ export interface SignOptions {
   jwtid?: string;
   mutatePayload?: boolean;
   noTimestamp?: boolean;
-  header?: JwtHeader;
+  header?: any;
   encoding?: string;
   allowInsecureKeySizes?: boolean;
   allowInvalidAsymmetricKeyTypes?: boolean;
