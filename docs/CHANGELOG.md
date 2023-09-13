@@ -5,6 +5,13 @@
 
 > All notable changes to this project will be documented in this file
 
+## [1.0.1](https://github.com/apart-re/utils/compare/v1.0.0...v1.0.1) (2023-09-13)
+
+
+### 🐛 Bug Fixes
+
+* **jwt:** fix build types ([93f4e73](https://github.com/apart-re/utils/commit/93f4e73c31679599770a5b3b3f76f9fee9860806))
+
 ## 1.0.0 (2023-09-13)
 
 
