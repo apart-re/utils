@@ -28,4 +28,10 @@ export const InternalServerError = {
   code: "INTERNAL_SERVER_ERROR_500",
 };
 
+export const UniqueViolatedError = {
+  message:
+    "Unique violation {{constraint}} on table {{table}} violated. Columns involved {{columns}}",
+  code: "004_unique_violation_error",
+};
+
 export const EncryptionError = ValidationError;
