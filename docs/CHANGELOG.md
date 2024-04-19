@@ -5,6 +5,13 @@
 
 > All notable changes to this project will be documented in this file
 
+## [1.2.0](https://github.com/apart-re/utils/compare/v1.1.0...v1.2.0) (2024-04-19)
+
+
+### 🍕 Features
+
+* **errors.ts:** add uniqueness error for DB ([592d17a](https://github.com/apart-re/utils/commit/592d17a9c9cb6cf9da493cc0ad3d96816157f59e))
+
 ## [1.1.0](https://github.com/apart-re/utils/compare/v1.0.1...v1.1.0) (2024-04-19)
 
 
